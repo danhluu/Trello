@@ -1,0 +1,96 @@
+#detail-user{
+    position:absolute;
+    top:55px;
+    left:380px;
+    width:300px;
+    height:190px;
+    background-color:#fff;
+    z-index:1;
+    line-height: normal;
+    border: 1px solid #dfe1e6;
+    border-radius: 5px;
+}
+.btn-plus-user{
+    background-color: #b9cffb !important;
+    z-index: 2 !important;
+}
+
+/* Danh sach nguoi dung */
+.popup-list-users{
+    position: absolute;
+    top: 55px;
+    left: 375px;
+    height: 200px;
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+/* Nút đóng chi tiết user*/
+.btnClose{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 0px;
+    right: 0px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.btnCloseListUser{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    line-height: normal;
+    top: 0px;
+    right: 0px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+/* bên trong Popup */
+.detail-user__header{
+    width: 100%;
+    height: 80px;
+    /* background-color: cyan; */
+    border-radius: 5px;
+}
+    .detail-user__header .header__avatar{
+        width: 60px;
+        height: 60px;
+    }
+        .header__avatar .circle_avatar{
+            width: 60px;
+            height: 60px;
+            margin: 10px 0 0 10px;
+            line-height: 60px;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: #dfe1e6;
+            color: #000;
+        }
+    .detail-user__header .infor-user{
+        margin: 10px 0 0 25px;
+    }
+        .infor-user_name{
+            font-weight: bold;
+            font-size: 16px;
+        }
+    /* 3 nút trong popup  */
+    /* div chứa button */
+    .btn-option-user{
+        width: 100%;
+        /* margin-top: 10px; */
+    }
+        /* button */
+        .btn-option-user .btn{
+            width: 100%;
+            text-align: start;
+            border: none;
+        }
+        .btn-option-user .btn:hover{
+            background-color: rgba(9,30,66,.04);
+            color:#000;
+        }

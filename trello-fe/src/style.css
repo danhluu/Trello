@@ -1,0 +1,82 @@
+.ftco-section {
+    padding: 7em 0;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.justify-content-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+}
+
+.login-wrap {
+    position: relative;
+    background: #000232;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+    box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+}
+
+.login-wrap h3 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.login-wrap p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.login-wrap .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.d-flex {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+ul { /* định nghĩa một list / tức danh sách */
+    list-style-type: none; /* kiểu của các dòng trong danh sách là không có gì đầu dòng */
+    margin: 0; /* thụt lề bằng 0 */
+    padding: 0; /* vùng đệm để đẩy thành phần chứa bên trong thụt vô bằng 0 */
+    overflow: hidden; /* nếu chữ/ hình bị tràn ra ngoài, cắt bỏ */
+}
+
+li { /* định nghĩ cho các dòng trong danh sách */
+    float: left; /* cho các dòng trôi nổi về góc bên trái như những cục shit trôi sông tấp vào bờ trái */
+}

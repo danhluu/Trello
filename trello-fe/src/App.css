@@ -1,0 +1,32 @@
+.header-title>h1{
+  text-align: center;
+  line-height: 55px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+/* //baner */
+
+
+.li-list-item{
+  background-color: #B9CFFB;
+  margin: 3px;
+  border-radius: 5px;
+  padding: 5px;
+  float: left;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.bg-blue{
+  background-color: #6D8DDF;
+}
+
+.ul-right{
+ float: right;
+ margin: 3px;
+ padding-right: 10px;
+}

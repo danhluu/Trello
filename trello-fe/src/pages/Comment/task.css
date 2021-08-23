@@ -1,0 +1,215 @@
+.modal-custom{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 16px;
+    /* background-color: #f4f5f7; */
+}
+/* Common class */
+.flex{
+    display: flex;
+}
+.width-10{
+    width: 12%;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.common-icon{
+    font-size: 16px;
+    margin-top: 4px;
+}
+.isHide{
+    display: none;
+}
+
+/* Bên trái modal */
+.card-left{
+    width:66%;
+    /* background-color: rgb(215, 215, 252); */
+}
+    /* Tiêu đề task */
+    .card-left__name{
+        font-weight: bold;
+    }
+        /* icon trong tiêu đề */
+        .name-icon{
+        }
+        /* Tiêu đề */
+        .name-name{
+        }
+    /* Thành viên và deadline */
+    /* Thành viên */
+
+    .memeber-memeber .member-task{
+        position: relative;
+        width:35px;
+        margin:0;
+        padding:0;
+        border: none;
+        cursor: pointer;
+        background-color: #fff;
+    }
+    /* Mô tả task - tiêu đề */
+    .card-left__description{
+        font-weight: bold;
+    }
+        .des-icon{
+        }
+        .des-name{
+        }
+    /* Ô input nhập mô tả */
+    .card-left__des-input .des-input{
+        width: 90%;
+        height: 80px;
+    }
+    /* Tiêu đề bình luận */
+    .card-left__cmt{
+        font-weight: bold;
+    }
+        .cmt-name{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+        }
+    /* avatar người cmt */
+    .card-left__cmt .avatar{
+        height: 40px;
+        /* width: 40px; */
+        background-color: cyan;
+    }
+    /* Ô input nhập bình luận */
+    .card-left__cmt .cmt-input{
+        width: 90%;
+        height: 40px;
+    }
+    
+    /* Bên phải danh sách bình luận */
+    .card-left__cmt-content .cmt-right{
+        width: 90%;
+    }
+        /* Tên Người bình luận */
+        .cmt-user{
+            font-weight: bold;
+            font-size: 16px;
+        }
+        /* Ngày bình luận */
+        .cmt-date{
+            font-size: 12px;
+            color: darkgray;
+            margin-left: 10px;
+            font-weight: 400;
+        }
+        /* Nội dung bình luận của mọi người */
+        .card-left__cmt-content .cmt-right .cmt-content{
+            height: 30px;
+            width: 100%;
+            line-height: 30px;
+            background-color: #f4f5f7;
+            
+        }
+        /* Reaction, chỉnh sửa, xoá cmt */
+        .cmt-react{
+            font-size: 12px;
+            color: darkgray;
+        }
+
+/* Bên phải modal */
+.card-right{
+    width:30%;
+    margin-top: 70px;
+    /* background-color: rgb(167, 167, 175); */
+}
+
+    /* Button bên phải */
+    .btn-right{
+        width: 100%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    /* popup thành viên */
+    .modal-member{
+        width: 300px;
+        height: 400px;
+        position: absolute;
+        top: -10px;
+        right: 0px;
+        background-color: #fff;
+        z-index: 1;
+        border: 1px solid #000;
+        border-radius: 5px;
+    }
+    .modal-member .search-member-input{
+        margin: 10px 0 0 13px;
+        width: 100%;
+    }
+        .modal-member .search-member-input input{
+            width: 272px;
+            padding-left: 10px;
+        }
+        .title-member-board{
+            margin: 5px 0 5px 0px;
+            font-weight: 600;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+        .memeber-list{
+            /* background-color: blue; */
+            margin: 5px 0 0 10px;
+            /* height: 40px; */
+        }
+        .memeber-list button:hover{
+            background-color: rgba(9,30,66,.04);
+            color:#000;
+        }
+            .memeber-list button{
+                border: none;
+                width: 96%;
+                text-align: start;
+                background-color: #fff;
+                cursor: pointer;
+            }
+            .memeber-list button .avatar{
+                margin-right: 10px;
+            }
+    /* Deadline - QUang */
+    /* new */
+    /* deadline */
+    h4 {
+        margin-top: 4px;
+    }
+    .title-date {
+        display: flex;
+    }
+    .time-deadline {
+        margin-top: 3px;
+        padding: 4px;
+        background-color: #ebecf0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border-radius: 3px;
+    }
+    .box-deadline {
+        display: flex;
+        align-items: center;
+    }
+    .butDelete-Deadline {
+        border: none;
+        padding: 6px;
+        color: #000;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    .butDelete-Deadline:hover {
+        background-color: #ebecf0;
+    }
+    .check-done {
+        background-color: green;
+        color: #fff;
+        padding: 0px 4px;
+        margin: 0 6px;
+        font-size: 12px;
+    }
+  
