@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { PlusOutlined, CloseOutlined } from '@ant-design/icons';
-import { Modal, Typography } from 'antd';
+import { Modal } from 'antd';
 import { createTask, testApi } from '../../Api/func/user';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Draggable } from 'react-smooth-dnd';
